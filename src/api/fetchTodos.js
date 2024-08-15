@@ -1,8 +1,4 @@
 export const fetchTodos = async (options) => {
-    const url = `https://jsonplaceholder.typicode.com/todos/${
-        options?.filter ? "history" : ""
-    }`;
-
     return new Promise((resolve, reject) => {
         return setTimeout(() => {
             resolve(
